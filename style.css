@@ -1,0 +1,53 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('bg.jpg');
+    background-size: cover;
+}
+
+.main {
+    padding-left: 250px;
+    padding-right: 250px;
+    text-align: center;
+    color: white;
+
+}
+
+.form-url {
+    width: 100%; 
+    margin: auto;
+}
+
+.form-url a {
+    color: blue;
+    text-decoration: none;
+}
+
+.form-url input[type="text"] {
+    padding: 8px;
+    width: calc(100% - 20px); 
+    margin-bottom: 10px;
+}
+
+.form-btn button {
+    width: 150px; 
+    padding: 8px;
+    background-color: rgb(68, 68, 200);
+    color: white;
+    border-color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.remove-ad {
+    display: block;
+    margin: 20px auto;
+    width: 120px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    padding: 4px;
+}
